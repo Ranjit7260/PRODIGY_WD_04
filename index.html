@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Carter | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Hi, I'm Ranjit kumar</h1>
+            <h2>Front-End Web Developer</h2>
+            <p class="subtitle">I build exceptional digital experiences with clean, efficient code</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="cta-button">View My Work</a>
+                <a href="#contact" class="cta-button secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="Myimg.png" alt="Developer portrait" class="profile-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-content">
+                <h3>Who I Am</h3>
+                <p>I'm a passionate front-end developer with 4 Month of experience creating responsive, user-friendly websites and applications. I specialize in JavaScript frameworks and have a keen eye for design and user experience.</p>
+                <p>When I'm not coding, you can find me hiking, reading tech blogs, or experimenting with new web technologies.</p>
+                
+                <h3>Education</h3>
+                <ul class="education-list">
+                    <li>
+                        <strong> pursuing B. tech</strong>
+                        <span>Bihar Engineering university ,Patna</span>
+                    </li>
+                    <li>
+                        <strong>CSE with specialization in AI & ML</strong>
+                        <span>BEU ,2027(complition year)</span>
+                    </li>
+                </ul>
+                
+                <h3>Experience</h3>
+                <ul class="experience-list">
+                    <li>
+                        <strong>Senior Front-End Developer</strong>
+                        <span>TechCorp Inc. (2020-Present)</span>
+                        <p>Led development of responsive web applications using React and Vue.js</p>
+                    </li>
+                    <li>
+                        <strong>Web Developer</strong>
+                        <span>Digital Solutions (2018-2020)</span>
+                        <p>Built and maintained client websites with HTML, CSS, and JavaScript</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Front-End</h3>
+                <div class="skill" data-level="95">
+                    <span>HTML5</span>
+                    <div class="skill-bar"><div class="skill-level"></div></div>
+                </div>
+                <div class="skill" data-level="90">
+                    <span>CSS</span>
+                    <div class="skill-bar"><div class="skill-level"></div></div>
+                </div>
+                <div class="skill" data-level="85">
+                    <span>JavaScript</span>
+                    <div class="skill-bar"><div class="skill-level"></div></div>
+                </div>
+                <div class="skill" data-level="80">
+                    <span>C++</span>
+                    <div class="skill-bar"><div class="skill-level"></div></div>
+                </div>
+                <div class="skill" data-level="75">
+                    <span>Python</span>
+                    <div class="skill-bar"><div class="skill-level"></div></div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Back-End</h3>
+                <div class="skill" data-level="70">
+                    <span>Node.js</span>
+                    <div class="skill-bar"><div class="skill-level"></div></div>
+                </div>
+                <!-- <div class="skill" data-level="65">
+                    <span>Express</span>
+                    <div class="skill-bar"><div class="skill-level"></div></div>
+                </div> -->
+                <!-- <div class="skill" data-level="60">
+                    <span> </span>
+                    <div class="skill-bar"><div class="skill-level"></div></div>
+                </div> -->
+            </div>
+            
+            <div class="skill-category">
+                <h3>Tools & Other</h3>
+                <div class="skill" data-level="85">
+                    <span>Git/GitHub</span>
+                    <div class="skill-bar"><div class="skill-level"></div></div>
+                </div>
+                <!-- <div class="skill" data-level="80">
+                    <span>Webpack</span>
+                    <div class="skill-bar"><div class="skill-level"></div></div>
+                </div>
+                <div class="skill" data-level="75">
+                    <span>Figma</span>
+                    <div class="skill-bar"><div class="skill-level"></div></div>
+                </div>
+                <div class="skill" data-level="70">
+                    <span>Docker</span>
+                    <div class="skill-bar"><div class="skill-level"></div></div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects (Only for show off {Not in real life so don't take it serious})</h2>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/600x400" alt="E-commerce Dashboard">
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce Dashboard</h3>
+                    <p>A comprehensive admin dashboard for e-commerce businesses with analytics, inventory management, and customer tracking.</p>
+                    <div class="tech-used">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Chart.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/600x400" alt="Travel App">
+                </div>
+                <div class="project-info">
+                    <h3>Travel Planning App</h3>
+                    <p>An interactive travel planning application that helps users organize trips, book accommodations, and create itineraries.</p>
+                    <div class="tech-used">
+                        <span>Vue.js</span>
+                        <span>Firebase</span>
+                        <span>Google Maps API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/600x400" alt="Fitness Tracker">
+                </div>
+                <div class="project-info">
+                    <h3>Fitness Tracker</h3>
+                    <p>A mobile-friendly fitness application that tracks workouts, nutrition, and progress with data visualization.</p>
+                    <div class="tech-used">
+                        <span>React Native</span>
+                        <span>Redux</span>
+                        <span>D3.js</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/600x400" alt="Recipe Finder">
+                </div>
+                <div class="project-info">
+                    <h3>Recipe Finder</h3>
+                    <p>A web application that allows users to search for recipes based on ingredients they have available.</p>
+                    <div class="tech-used">
+                        <span>JavaScript</span>
+                        <span>Edamam API</span>
+                        <span>CSS Grid</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <span class="error-message"></span>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+                <div id="form-success" class="success-message"></div>
+            </form>
+            
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-envelope"></i> ranjitk72600@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +91 72xxxxxx05</p>
+                <p><i class="fas fa-map-marker-alt"></i> GECK, Kishanganj ,Bihar</p>
+                
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-codepen"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> @ranjit coporation. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
